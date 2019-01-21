@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        title #{title}
+        link(rel='stylesheet', href='/css/style.css')
+        link(rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css")
+        meta(name="viewport" content="width=device-width", initial-scale="1")
+    body
+        main
+            block header
+                header.header.shadow-bottom.w3-display-container
+                    div.w3-display-middle
+                        h1.title-text #{title}
+                    div.navbar.w3-display-bottommiddle
+                        ul.navbar
+                            a(href='/')
+                                li.navbar-items Home
+                            a(href="/about")
+                                li.navbar-items About
+                            a(href="#")
+                                li.navbar-items Contact us
+                            a(href="#")
+                                li.navbar-items Media
+                    div.avatar-img.left-align-relative
+                        div.avatar-background.avatar.display-contents-center
+                            img.avatar( src="/images/avatar.jpg" alt="avatar")
+
+                    
+                    
+            block content
+
+            block footer
+                footer.footer.shadow-top
+                    div.footer-items
+                        p.copyright-text.left-align-relative Copyright text
