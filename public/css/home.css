@@ -1,0 +1,39 @@
+/* styling specific to home page */
+
+
+/*body styling */
+
+.container-items {
+    min-height: 100vh;
+    overflow: hidden;
+    width: 65%;
+    background-color: #edeef2;
+    padding-top: 40px;
+    padding-bottom: 0%;
+    
+}
+
+.container-item-text {
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.body-text {
+    padding-bottom: 50px;
+}
+
+.body-header {
+    padding-bottom: 30px;
+}
+
+
+
+/*image styling */
+.home-image {
+    height: 200px;
+    float: right;
+    position: relative;
+    top: -20px;
+    z-index: auto;
+}
