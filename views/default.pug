@@ -8,30 +8,8 @@ html
         block head
     body
         main
-            block header
-                header.header-wrapper.w3-display-container
-                    header.header.shadow-bottom
-                        div.w3-display-middle
-                            h1.title-text #{title}
-                        div.navbar.w3-display-bottommiddle
-                            ul.navbar
-                                a(href='/')
-                                    li.navbar-items Home
-                                a(href="/about")
-                                    li.navbar-items About
-                                a(href="#")
-                                    li.navbar-items Contact us
-                                a(href="#")
-                                    li.navbar-items Media
-                        div.avatar-img.left-align-relative
-                            div.avatar-background.avatar.display-contents-center
-                                img.avatar( src="/images/avatar.jpg" alt="avatar")
-
-                    
+            include includes/header.pug
                     
             block content
 
-            block footer
-                footer.footer.shadow-top
-                    div.footer-items
-                        p.copyright-text.left-align-relative &copy; Copyright text
+            include includes/footer.pug

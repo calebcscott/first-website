@@ -1,0 +1,31 @@
+{
+    "pictures" : [
+        {
+            "info" : "Cat 1",
+            "imgLink" : "#",
+            "imgSrc" : "cat-1.jpg",
+            "id" : "cat1"
+        },
+
+        {
+            "info" : "information or caption of picture",
+            "imgLink" : "#",
+            "imgSrc" : "cat-2.jpg",
+            "id" : "cat2"
+        },
+
+        {
+            "info" : "information or caption of picture",
+            "imgLink" : "#",
+            "imgSrc" : "cat-3.jpg",
+            "id" : "cat3"
+        },
+
+        {
+            "info" : "information or caption of picture",
+            "imgLink" : "#",
+            "imgSrc" : "cat-4.jpg",
+            "id" : "cat4"
+        }
+    ]
+}

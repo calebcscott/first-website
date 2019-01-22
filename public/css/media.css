@@ -1,0 +1,40 @@
+/* media page styling */
+
+.display-contents-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.pic {
+    display: inline-block;
+    padding: 0px 25px 20px 25px;
+}
+
+
+
+.pic-div {
+    height: auto;
+}
+
+.pic-img {
+    height: 200px;
+    width: 300px;
+}
+
+.pic-link {
+    display: block;
+    text-align: center;
+}
+
+.img-single {
+    height: 400px;
+    width: 600px;
+}
+
+.block {
+    display: block;
+}

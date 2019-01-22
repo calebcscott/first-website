@@ -1,0 +1,12 @@
+extends default
+
+block head
+    link(rel='stylesheet', href='/css/home.css')
+    link(rel='stylesheet', href='/css/media.css')
+
+block content
+    div.container.display-contents-center
+        div.container-items.shadow-sides
+            div.contianer-pictures.display-contents-center
+                img.img-single(src=`/images/Media/${image.imgSrc}` alt="placeholder")
+                p.block #{image.info}

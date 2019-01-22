@@ -109,10 +109,14 @@
         padding-left: 15px;
     }
 
-    li:hover {
-        background-color: #7e7e81
+
+    .btn {
+        transition: background-color .5s
     }
 
+    .btn:hover {
+        background-color: #7e7e81
+    }
 
 
 
