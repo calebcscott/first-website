@@ -3,9 +3,12 @@
 
 /*body styling */
 
+.container {
+    display: flex;
+}
+
 .container-items {
     min-height: 100vh;
-    overflow: hidden;
     width: 65%;
     background-color: #edeef2;
     padding-top: 40px;

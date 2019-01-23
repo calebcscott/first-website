@@ -7,18 +7,33 @@
 }
 
 
+.container-pictures {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
 
+    
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+}
 
 .pic {
-    display: inline-block;
-    padding: 0px 25px 20px 25px;
+    width: 300px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 
 
-.pic-div {
-    height: auto;
-}
+
 
 .pic-img {
     height: 200px;
@@ -36,5 +51,5 @@
 }
 
 .block {
-    display: block;
+    text-align: center;
 }

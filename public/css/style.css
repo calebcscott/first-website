@@ -13,13 +13,10 @@
 
     body {
         background-color: #cfd1d6;
-        min-height: 100%;
         position: relative;
     }
 
     main {
-        min-height: 100vh;
-        overflow: hidden;
         display: block;
         position: relative;
         padding-bottom: 60px;

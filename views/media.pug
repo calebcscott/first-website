@@ -7,10 +7,9 @@ block head
 block content
     div.container.display-contents-center
         div.container-items.shadow-sides
-            div.contianer-pictures
+            div.container-pictures
                 each pic in pictures
                     div.pic
-                        div.pic-div
-                            img.pic-img(src=`/images/Media/${pic.imgSrc}` alt="home image")
-                            a.pic-link(href=`/media/${pic.id}`)
-                                | View Image
+                        img.pic-img(src=`/images/Media/${pic.imgSrc}` alt="home image")
+                        a.pic-link(href=`/media/${pic.id}`)
+                            | View Image
